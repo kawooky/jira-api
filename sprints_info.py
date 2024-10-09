@@ -1,14 +1,5 @@
 def fetch_sprints_from_board(jira, board_id):
-    """
-    Fetches sprints from a specified Jira board.
-
-    Parameters:
-    - jira: JIRA instance for API interaction.
-    - board_id (int): The ID of the Jira board.
-
-    Returns:
-    - List of sprints with their ID, name, and state.
-    """
+    
     # Fetch sprints from the specified board
     sprints = jira.sprints(board_id)
 

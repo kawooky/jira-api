@@ -1,17 +1,5 @@
-
-
 def get_jira_boards(jira):
-    """
-    Retrieves and prints the details of boards including project name and key from a Jira instance.
-
-    Args:
-    - server (str): Jira server URL.
-    - username (str): Jira account email or username.
-    - api_token (str): Jira API token.
-
-    """
-
-
+    
     # Get all board
     boards = jira.boards()
 
